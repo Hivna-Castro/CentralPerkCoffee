@@ -1,6 +1,5 @@
 import exceptions
-from interfaces.produto import Produto
-from classes.produto import Cafe, CafeLatte, ChaVerde, Brownie
+from classes.produto import Produto, Cafe, CafeLatte, ChaVerde, Brownie
 
 class FabricaProduto:
     def __init__(self):
